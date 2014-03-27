@@ -11,7 +11,7 @@ public class LoadGUI : MonoBehaviour {
 	}
 
 	void OnGUI () {
-		if (GUI.Button (new Rect (10, 10, 150, 100), "Stop Animation")) {
+		if (GUI.Button (new Rect (10, 10, 150, 35), "Stop Animation")) {
 			Debug.Log ("Button hit");
 			StopAnimation();
 		}

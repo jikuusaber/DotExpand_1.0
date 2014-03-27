@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour {
 
 	float ymax = 10.24F;
 	float xmax = 7.68F;
-	int dotmax = 10;
+	int dotmax = 15;
 	float yrand;
 	float xrand;
 	public GameObject dot;
@@ -21,7 +21,6 @@ public class Spawner : MonoBehaviour {
 			Instantiate (dot, new Vector3 (xrand, yrand, 0), Quaternion.identity);
 			dotList.Add (dot);
 		}
-
 	}
 	
 	// Update is called once per frame
